@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-nodemailer",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andris9/eslint-config-nodemailer.git"
+  },
+  "author": "Andris Reinman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andris9/eslint-config-nodemailer/issues"
+  },
+  "homepage": "https://github.com/andris9/eslint-config-nodemailer#readme"
+}
