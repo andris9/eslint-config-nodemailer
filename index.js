@@ -2,9 +2,16 @@
 
 module.exports = {
     rules: {
-        indent: [2, 4, {
-            SwitchCase: 1
-        }],
+        'for-direction': 'error',
+        'no-await-in-loop': true,
+        'no-div-regex': true,
+        indent: [
+            2,
+            4,
+            {
+                SwitchCase: 1
+            }
+        ],
         quotes: [2, 'single'],
         'linebreak-style': [2, 'unix'],
         semi: [2, 'always'],
@@ -14,11 +21,13 @@ module.exports = {
         curly: 2,
         'no-fallthrough': 2,
         'quote-props': [2, 'as-needed'],
-        'no-unused-expressions': [2, {
-            allowShortCircuit: true
-        }],
+        'no-unused-expressions': [
+            2,
+            {
+                allowShortCircuit: true
+            }
+        ],
         'no-unused-vars': 2,
-        'no-undefined': 2,
         'handle-callback-err': 2,
         'no-new': 2,
         'new-cap': 2,
@@ -33,9 +42,12 @@ module.exports = {
         'no-empty': 2,
         'no-duplicate-case': 2,
         'no-empty-character-class': 2,
-        'no-redeclare': [2, {
-            builtinGlobals: true
-        }],
+        'no-redeclare': [
+            2,
+            {
+                builtinGlobals: true
+            }
+        ],
         'block-scoped-var': 2,
         'no-sequences': 2,
         'no-throw-literal': 2,
@@ -65,6 +77,5 @@ module.exports = {
         describe: true,
         beforeEach: true,
         afterEach: true
-    },
-    fix: true
+    }
 };
