@@ -3,8 +3,8 @@
 module.exports = {
     rules: {
         'for-direction': 'error',
-        'no-await-in-loop': true,
-        'no-div-regex': true,
+        'no-await-in-loop': 2,
+        'no-div-regex': 2,
         indent: [
             2,
             4,
